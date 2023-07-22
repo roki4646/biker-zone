@@ -95,8 +95,8 @@
                     </div>
                 </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a>
-                    <a href="#slide2" class="btn btn-circle">❯</a>
+                    <a href="#slide4" class="">❮</a>
+                    <a href="#slide2" class="">❯</a>
                 </div>
             </div>
             <!-- bike 2 -->
@@ -119,8 +119,8 @@
                     </div>
                 </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a>
-                    <a href="#slide3" class="btn btn-circle">❯</a>
+                    <a href="#slide1" class="">❮</a>
+                    <a href="#slide3" class="">❯</a>
                 </div>
             </div>
             <!-- bike 3 -->
@@ -143,8 +143,8 @@
                     </div>
                 </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">❮</a>
-                    <a href="#slide4" class="btn btn-circle">❯</a>
+                    <a href="#slide2" class="">❮</a>
+                    <a href="#slide4" class="">❯</a>
                 </div>
             </div>
             <!-- bike 4 -->
@@ -167,15 +167,23 @@
                     </div>
                 </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">❮</a>
-                    <a href="#slide1" class="btn btn-circle">❯</a>
+                    <a href="#slide3" class="">❮</a>
+                    <a href="#slide1" class="">❯</a>
                 </div>
             </div>
         </div>
     </header>
     <main class="md:container md:mx-auto">
-        <section>
-            <!-- Featured section I'll do -->
+        <section class="mt-10">
+            <!-- Featured section  -->
+            <h2 class="text-center text-5xl font-semibold">Fetured Bikes In This Year</h2>
+            <p class="text-center text-bike-primary font-semibold pt-4">Best bike collection</p>
+            <div class="flex gap-10 justify-around items-center flex-wrap p-11">
+                <img src="images/others/feature-bike.png" alt="">
+                <img src="images/others/feature-bike.png" alt="">
+                <img src="images/others/feature-bike.png" alt="">
+       
+            </div>
         </section>
         <!-- latest bike -->
         <section class="my-24">
@@ -334,8 +342,8 @@
             </div>
         </section>
         <!-- FAQ section -->
-        <section class="my-24">
-            <h3 class="text-5xl font-semibold text-center mb-12">
+        <section class="">
+            <h3 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-center mb-12">
                 Frequently Asked <span class="text-bike-primary">Questions</span>
             </h3>
             <div class="hero">
@@ -399,20 +407,33 @@
 
         </section>
     </main>
-    <footer class="footer p-10 bg-neutral text-neutral-content">
-        <div>
+    <footer class=" footer   p-10 bg-neutral text-neutral-content">
+        <div class="md:container md:mx-auto flex flex-col md:flex-col lg:flex-row justify-between">
+            <div class="flex flex-col gap-8">
 
-          <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
-        </div> 
-        <div>
-          <span class="footer-title">Social</span> 
-          <div class="grid grid-col-1 gap-4">
-            <a><img class="w-36" src="images/others/android.png" alt=""></a> 
-            <a><img class="w-36" src="images/others/ios.png" alt=""></a> 
-            
-
-          </div>
+            <ul class="flex flex-row gap-6">
+                <li><a href="">Download Now</a></li>
+                <li><a href="">License</a></li>
+            </ul>
+            <ul class="flex flex-wrap md:flex-row lg:flex-row gap-6">
+                <li><a href="">About</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Privacy Policy</a></li>
+            </ul>
+            <small>© 2020 bike. All rights reserved</small>
+            </div> 
+            <div>
+            <span class="footer-title">Social</span> 
+            <div class="grid grid-col-1 gap-4">
+                <a><img class="w-36" src="images/others/android.png" alt=""></a> 
+                <a><img class="w-36" src="images/others/ios.png" alt=""></a> 
+            </div>
+            </div>            
         </div>
+
       </footer>
 </body>
 
